@@ -3,6 +3,17 @@ body {
 	padding: 20px 60px;
 }
 
+body::-webkit-scrollbar {
+	width: 8px; /* width of the entire scrollbar */
+}
+body::-webkit-scrollbar-track {
+	background: lightgray; /* color of the tracking area */
+}
+body::-webkit-scrollbar-thumb {
+	background-color: darkslategrey; /* color of the scroll thumb */
+	border-radius: 20px; /* roundness of the scroll thumb */
+	border: none; /* creates padding around scroll thumb */
+}
 a {
 	text-decoration: none;
 	color: black;
